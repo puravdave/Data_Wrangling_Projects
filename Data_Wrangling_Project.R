@@ -20,3 +20,4 @@ refine_df_2 <- refine_df %>%
 refine_df_3 <- refine_df_2 %>% 
   mutate(full_address = unite(address, city, country, sep = ", "))
 
+# trial for github workflow
